@@ -1,0 +1,26 @@
+<head>
+  <title>autoform-files-case</title>
+</head>
+
+<body>
+</body>
+
+<template name="home">
+  <ul>
+    <li><a href="/login">Login</a></li>
+    <li><a href="/admin">Admin</a></li>
+  </ul>
+</template>
+
+<template name="login">
+  {{> loginButtons}}
+</template>
+
+<template name="media">
+  {{#with currentUpload}}
+    Uploading <b>{{file.name}}</b>:
+    <span id="progress">{{progress.get}}%</span>
+  {{else}}
+    <input id="fileInput" type="file" />
+  {{/with}}
+</template>

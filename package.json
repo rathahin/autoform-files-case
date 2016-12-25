@@ -1,0 +1,18 @@
+{
+  "name": "autoform-files-case",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "meteor": "MONGO_URL=mongodb://localhost:27017/ecom_db meteor"
+  },
+  "dependencies": {
+    "babel-runtime": "6.18.0",
+    "bcrypt": "^0.8.0",
+    "gridfs-stream": "^1.1.1",
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.4.1",
+    "react-addons-pure-render-mixin": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-mounter": "^1.2.0"
+  }
+}
