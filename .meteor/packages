@@ -39,7 +39,6 @@ meteortoys:allthings
 react-meteor-data
 mrt:jquery-masonry
 ostrio:files
-ostrio:autoform-files
 accounts-base
 gwendall:accounts-helpers
 francocatena:compass
